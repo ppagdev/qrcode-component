@@ -1,4 +1,21 @@
- 
+@font-face {
+    font-family: "Outfit";
+    src: url("fonts/Outfit/Outfit-VariableFont_wght.ttf");
+}
+
+html{
+    font-family: 'Outfit', sans-serif;
+}
+
+img[images/image-qr-code.png]{
+    ;
+}
+
+h1{
+    font-weight: 700;
+}
+
 p{
-    color: red;
+    font-size: 15px;
+    font-weight: 400;
 }
