@@ -1,20 +1,27 @@
+/* import font */
 @font-face {
     font-family: "Outfit";
     src: url("fonts/Outfit/Outfit-VariableFont_wght.ttf");
 }
 
+/* style for whole html document */
 html{
     font-family: 'Outfit', sans-serif;
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
 }
 
+/* style for qr code img */
 img[images/image-qr-code.png]{
     ;
 }
 
+/* style for headings */
 h1{
     font-weight: 700;
 }
 
+/* style for paragraphs */
 p{
     font-size: 15px;
     font-weight: 400;
