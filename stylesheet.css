@@ -12,25 +12,35 @@ html{
 }
 
 body{
-    border: 5px solid black;
+    margin: 2em auto;
+    width: 320px;
+    height: 450px;
+    padding: 5px;
+    border: 1px solid hsl(0, 0%, 100%);
     background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px hsl(220, 15%, 55%);
 }
 
 /* style for qr code img */
 img{
-    padding: 5px;
+    display: block;
+    margin: 0 auto;
     width: 300px;
+    padding: 5px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 15px;
 }
 
 /* style for headings */
 h1{
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
     text-shadow: 3px 3px 1px hsl(212, 45%, 89%);
 }
 
 /* style for paragraphs */
 p{
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 400;
 }
